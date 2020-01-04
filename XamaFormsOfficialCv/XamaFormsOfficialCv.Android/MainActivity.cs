@@ -25,9 +25,10 @@ namespace XamaFormsOfficialCv.Droid
             LoadApplication(new App());
 
             //◆追加：ここから２
-            var y0 = GetMatMeanY(100, 100);     // =127.5
-            var y1 = GetMatMeanY(200, 100);     // = 85.0
-            var y2 = GetMatMeanY(200, 300);     // =153.0
+            // 黒画像と白画像の割合を指定して、平均輝度値を求める
+            var y0 = GetMatMeanY(1, 1);     // 255 * 1/2 = 127.5
+            var y1 = GetMatMeanY(2, 1);     // 255 * 1/3 =  85.0
+            var y2 = GetMatMeanY(200, 300); // 255 * 3/5 = 153.0
             // ◆追加：ここまで２
         }
 
