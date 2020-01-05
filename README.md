@@ -35,7 +35,7 @@ OpenCV公式が公開している Android用ライブラリを利用して、Xam
 
 モバイルアプリ(Xamarin.Forms) から、"XamaFormsOfficialCv" として作成しました。
 
-![XamarinProject](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/xamarin_project.png "XamarinProject")
+![XamarinProject](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/xamarin_project.png)
 
 
 
@@ -43,7 +43,7 @@ OpenCV公式が公開している Android用ライブラリを利用して、Xam
 
 ダイナミック共有ライブラリ(Android) から、"NativeOpenCv" として作成しました。
 
-![NativeProject](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/native_project.png "NativeProject")
+![NativeProject](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/native_project.png)
 
 
 
@@ -61,7 +61,7 @@ OpenCV公式が公開している Android用ライブラリを利用して、Xam
 
 今回は "C:\opencv\OpenCV-android-sdk" に置きました。
 
-![OpenCvRelase](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/opencv_release.png "OpenCvRelase")
+![OpenCvRelase](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/opencv_release.png)
 
 
 
@@ -73,7 +73,7 @@ OpenCV公式が公開している Android用ライブラリを利用して、Xam
 
 
 
-![STLSetting](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/lib_setting_stl.png "STLSetting")
+![STLSetting](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/lib_setting_stl.png)
 
 
 
@@ -85,7 +85,7 @@ OpenCV公式が公開している Android用ライブラリを利用して、Xam
 C:\opencv\OpenCV-android-sdk\sdk\native\jni\include
  ```
 
-![IncludeOpenCV](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/include_opencv.png "IncludeOpenCV")
+![IncludeOpenCV](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/include_opencv.png)
 
 
 
@@ -99,7 +99,7 @@ C:\opencv\OpenCV-android-sdk\sdk\native\3rdparty\libs\arm64-v8a
 C:\opencv\OpenCV-android-sdk\sdk\native\staticlibs\arm64-v8a
  ```
 
-![AddOpenCVLibPath](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/add_opencv.png "AddOpenCVLibPath")
+![AddOpenCVLibPath](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/add_opencv.png)
 
 
 
@@ -141,7 +141,7 @@ opencv_video
 opencv_videoio
 ```
 
-![AddOpenCVLibName](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/add_opencv_lib.png "AddOpenCVLibName")
+![AddOpenCVLibName](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/add_opencv_lib.png)
 
 
 
@@ -199,14 +199,14 @@ Android側のプロジェクトにフォルダを作成して、OpenCVの共有�
   C:\opencv\OpenCV-android-sdk\sdk\native\libs\arm64-v8a\libopencv_java4.so
   ```
 
-![LibPath](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/lib_path.png "LibPath")
+![LibPath](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/lib_path.png)
 
 追加したライブラリ(*.so) のプロパティを変更します。
 
 - ビルドアクション：AndroidNativeLirary
 - 出力ディレクトリにコピー：新しい場合はコピーする
 
-![LibSetting](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/lib_setting.png "LibSetting")
+![LibSetting](https://github.com/hsytkm/XamaFormsOfficialCv/tree/master/Image/lib_setting.png)
 
 
 
