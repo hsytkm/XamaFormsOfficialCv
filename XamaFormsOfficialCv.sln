@@ -5,9 +5,22 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamaFormsOfficialCv.Android", "XamaFormsOfficialCv\XamaFormsOfficialCv.Android\XamaFormsOfficialCv.Android.csproj", "{663B2886-482C-4B78-9BB8-48D6D68375A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamaFormsOfficialCv", "XamaFormsOfficialCv\XamaFormsOfficialCv\XamaFormsOfficialCv.csproj", "{4612E35B-232F-4D59-ADBB-3F36E87CFE71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamaFormsOfficialCv", "XamaFormsOfficialCv\XamaFormsOfficialCv\XamaFormsOfficialCv.csproj", "{4612E35B-232F-4D59-ADBB-3F36E87CFE71}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeOpenCv", "NativeOpenCv\NativeOpenCv.vcxproj", "{F6AB3F15-EF76-4A87-ABF0-7805CDD548F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{4C7125EC-12CC-42D6-A16F-C2CAEEFCD828}"
+	ProjectSection(SolutionItems) = preProject
+		Image\add_opencv.png = Image\add_opencv.png
+		Image\add_opencv_lib.png = Image\add_opencv_lib.png
+		Image\include_opencv.png = Image\include_opencv.png
+		Image\lib_path.png = Image\lib_path.png
+		Image\lib_setting.png = Image\lib_setting.png
+		Image\lib_setting_stl.png = Image\lib_setting_stl.png
+		Image\native_project.png = Image\native_project.png
+		Image\opencv_release.png = Image\opencv_release.png
+		Image\xamarin_project.png = Image\xamarin_project.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
